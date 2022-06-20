@@ -12,6 +12,8 @@ public class Main
         
         Car audi = new Car();
         audi.model = "Audi Q5";
+        
+        
         audi.seats = 3;
         audi.color = "Blue";
         
@@ -20,5 +22,14 @@ public class Main
         // Object declaration and memory allocation
         Car test;
         test = new Car(); // gets allocation into a memory.
+        
+        
+        
+        Car c = new Car();
+        c.intialize("Model S","Red",4);
+        
+        c.display();
+    
+        
     }
 }

@@ -8,6 +8,15 @@ public class Car{
         System.out.println("Model is " + model);
         System.out.println("Color is " + color);
         System.out.println("Seats is " + seats);
+
         
     }
+    
+    public void intialize(String model_s, String red, int i){
+        model = model_s;
+        color = red;
+        seats = i;
+    }
+    
+    
 }
